@@ -1,11 +1,12 @@
 /* Gallery CSS File */
 
 html {
-	/*background: url('../images/background.png') no-repeat center;
-	background-size: cover;*/
+
 }
 
 body {
+	background: url('../images/background.jpg') no-repeat center;
+	background-size: cover;
 	margin: 0px;
 	display: flex;
 	flex-direction: column;
@@ -120,8 +121,7 @@ body {
 
 .col-md-6 {
 	position: relative;
-	width: calc(50% - 100px);
-	margin-left: 50px;
+	width: calc(50% - 50px);
 	margin-right: 50px;
 	float: left;
 }
