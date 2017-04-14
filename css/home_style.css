@@ -1,0 +1,161 @@
+/* Home CSS File */
+
+html { 
+	background: url('../images/blurred-tourist-nyc.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+body {
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Avenir", Arial;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: white;
+}
+
+::selection {
+    background: white;
+}
+
+
+#navbar {
+	display: flex;
+	background-color: black;
+	width: calc(100vw - 30%);
+	height: 30px;
+	padding: 20px;
+	padding-left: 15%;
+    padding-right: 15%;
+	position: fixed;
+}
+
+	#navbar h1:hover {
+		cursor: pointer;
+	}
+
+	#navbar h1 {
+		margin: 0px;
+		/*margin-left: 20px;*/
+		padding: 0px;
+		margin-right: auto;
+
+		font-family: "Dancing Script", "SignPainter", "Avenir", Arial;
+		font-weight: 400;
+
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+	}
+
+		#navbar a {
+			text-decoration: none;
+			color: white;
+		}
+
+	#navbar .nav_signup {
+		/*margin-left: auto;*/
+		display: flex;
+		align-items: center;
+
+		color: white;
+		height: 30px;
+		width: 90px;
+		border: solid 1px white;
+		border-radius: 5px;
+
+		transition: all 0.2s ease;
+	}
+
+		#navbar .nav_signup:hover {
+			color: black;
+			background-color: white;
+			cursor: pointer;
+		}
+
+	#navbar .nav_signup div {
+		margin: auto;
+	}
+
+	/*#navbar #nav1 {
+		margin-left: auto;
+		border: none;
+	}
+
+	#navbar #nav2 {
+		margin-left: 20px;
+	}*/
+
+#splash_container {
+	display: flex;
+
+	/*background-color: rgba(0, 0, 0, 0.7);*/
+	color: white;
+
+	width: 100vw;
+	height: calc(100vh - 70px);
+	margin-top: 70px;
+}
+
+	#inner_splash {
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+		#inner_splash div {
+			display: flex;
+			align-items: center;
+		}
+
+			#inner_splash div h1 {
+				font-weight: 300;
+			}
+
+		#signup_options {
+			display: flex;
+			margin-top: 30px;
+		}
+
+			#signup_options a {
+				text-decoration: none;
+			}
+
+			#gap {
+				width: 40px;
+				height: 10px;
+			}
+
+			.signup {
+				float: left;
+
+				width: 180px;
+				border-radius: 8px;
+				padding: 10px;
+				font-size: 1.2em;
+				color: white;
+
+				background-color: #27ae60;
+				border-bottom: solid 3px #1D8549;
+			}
+
+				.signup:hover {
+					cursor: pointer;
+					/*background-color: #22A057;*/
+					border-bottom: none;
+					border-top: solid 3px #1D8549;
+				}
+
+
+
+
+
+
+
+
+
+

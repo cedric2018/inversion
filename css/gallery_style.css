@@ -1,0 +1,181 @@
+/* Gallery CSS File */
+
+html {
+	/*background: url('../images/background.png') no-repeat center;
+	background-size: cover;*/
+}
+
+body {
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	font-family: "Avenir", Arial;
+	background-color: black;
+	color: white;
+}
+
+::-moz-selection { /* Code for Firefox */
+    background: white;
+}
+
+::selection {
+    background: white;
+}
+
+
+
+#navbar {
+	background-color: black;
+	color: white;
+	width: calc(100vw - 40px);
+	height: 30px;
+	padding: 20px;
+}
+
+	#navbar h1:hover {
+		cursor: default;
+	}
+
+	#navbar h1 {
+		margin: 0px;
+		/*margin-left: 20px;*/
+		padding: 0px;
+		margin-right: auto;
+		font-size: 1.2rem;
+		font-family: "Avenir", Arial;
+		font-weight: 100;
+		letter-spacing: 20px;
+
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		user-select: none;
+	}
+
+		#navbar h1 a {
+			text-decoration: none;
+			color: white;
+		}
+
+#carousel {
+	display: flex;
+	width: 100vw;
+	height: calc(100vh - 70px);
+
+	/*display: none;*/
+}
+
+	.carousel_item {
+		flex: 1;
+
+		display: flex;
+		margin: 0px 2px 0px 2px;
+		height: inherit;
+		/*background-color: rgba(250, 250, 250, 0.7);*/
+		/*opacity: 0.8;*/
+
+		transition: all 0.3s ease;
+
+		background-size: cover;
+		overflow: hidden;
+	}
+
+		.carousel_item:nth-child(1) {
+			margin-left: 0px;
+		}
+
+		.carousel_item:nth-last-child(1) {
+			margin-right: 0px;
+		}
+
+	.active {
+		flex: 50;
+		cursor: default;
+	}
+
+	.description {
+		width: 100%;
+		margin-top: auto;
+		padding: 10px 40px 10px 40px;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.6);
+
+
+		display: none;
+	}
+
+		.active .description {
+			display: block;
+		}
+
+		.description p {
+			/*text-overflow: clip;*/
+			/*text-overflow: ellipsis;*/
+		}
+
+
+#main_content {
+	padding: 200px 15vw;
+}
+
+.col-md-6 {
+	position: relative;
+	width: calc(50% - 100px);
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+}
+
+.row {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 100%;
+}
+
+.fitted_img {
+	width: 90%;
+}
+
+
+
+
+
+	.carousel_item:nth-child(1) {
+		background: url('../images/big-data-7.png') no-repeat center;
+	}
+
+	.carousel_item:nth-child(2) {
+		background: url('../images/paperart2.jpg') no-repeat center;
+	}
+
+	.carousel_item:nth-child(3) {
+		background: url('../images/archtectural-model-8.jpg') no-repeat center;
+	}
+
+	.carousel_item:nth-child(4) {
+		background: url('../images/archtectural-model-6.jpg') no-repeat center;
+	}
+
+	.carousel_item:nth-child(5) {
+		background: url('../images/archtectural-model-4.jpg') no-repeat center;
+	}
+
+	.carousel_item:nth-child(6) {
+		background: url('../images/data-visualization-model.png') no-repeat center;
+	}
+
+	.carousel_item:nth-child(7) {
+		background: url('../images/organic-prototype-model.jpg') no-repeat center;
+	}
+
+	.carousel_item:nth-child(8) {
+		background: url('../images/paperart2.jpg') no-repeat center;
+	}
+
+	.carousel_item:nth-child(9) {
+		background: url('../images/big-data-7.png') no-repeat center;
+	}
+
+	.carousel_item:nth-child(10) {
+		background: url('../images/archtectural-model-6.jpg') no-repeat center;
+	}
