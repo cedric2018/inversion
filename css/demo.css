@@ -22,7 +22,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #c2292e;
+	color: #623D6B; /* c2292e or 623D6B */
 }
 
 .hidden {
@@ -55,7 +55,7 @@ a:focus {
 }
 
 .btn:hover {
-	color: #c2292e;
+	color: #623D6B;
 }
 
 .btn--nav {
@@ -250,7 +250,7 @@ a:focus {
 
 .subject {
 	font-size: 1.5em;
-	color: #c2292e;
+	color: #623D6B;
 }
 
 /* Location */
@@ -265,7 +265,7 @@ a:focus {
 	padding: 6em 0;
 	text-align: center;
 	pointer-events: none;
-	color: #c2292e;
+	color: #623D6B;
 	-webkit-writing-mode: vertical-rl;
 	writing-mode: vertical-rl;
 }
@@ -325,7 +325,7 @@ a:focus {
 	font-weight: bold;
 	margin: 1.15em 0 0 0;
 	text-transform: uppercase;
-	color: #c2292e;
+	color: #623D6B;
 }
 
 .slide__number {
@@ -334,7 +334,7 @@ a:focus {
 	margin: 0.5em 0 0 0;
 	padding: 0.4em 0.5em 0.25em 0.5em;
 	color: #fff;
-	background: #c2292e;
+	background: #623D6B;
 }
 
 /* Nav */
@@ -432,7 +432,7 @@ a:focus {
 
 .loader div:nth-child(2) {
 	border-radius: 50%;
-	background: #c2292e;
+	background: #623D6B;
 	animation-delay: 0.15s;
 }
 
@@ -499,4 +499,16 @@ a:focus {
 		font-size: 0.95em;
 		width: 100vw;
 	}
+}
+
+
+
+/* OVERWRITE */
+
+.logo {
+	height: 60px;
+	width: auto;
+	-webkit-filter: drop-shadow(5px 5px rgba(31, 31, 33, 0.4));
+	filter: drop-shadow(5px 5px rgba(31, 31, 33, 0.4));
+	border-radius: 4px;
 }
