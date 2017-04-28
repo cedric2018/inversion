@@ -186,6 +186,7 @@ a:focus {
 
 /* Inner elements */
 .room__img {
+	border-radius: 1000px;
 	flex: none;
 	max-width: 40%;
     max-height: 60%;
@@ -508,7 +509,7 @@ a:focus {
 .logo {
 	height: 60px;
 	width: auto;
-	-webkit-filter: drop-shadow(5px 5px rgba(31, 31, 33, 0.4));
-	filter: drop-shadow(5px 5px rgba(31, 31, 33, 0.4));
-	border-radius: 4px;
+	-webkit-filter: drop-shadow(5px 5px rgba(31, 31, 33, 0.6));
+	filter: drop-shadow(5px 5px rgba(31, 31, 33, 0.6));
+	border-radius: 2px'
 }
